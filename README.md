@@ -1,2 +1,3 @@
 # datascience-template
- cookiecutter for data science projects
+
+cookiecutter for data science projects

@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+%additional usepackages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+%\usepackage{booktabs} %for prettier tables (uncomment)
+\usepackage[capposition=top]{floatrow}
+\usepackage{scrextend}
+\usepackage{csquotes}
+%\usepackage{pdfpages}
+
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{geometry}
+
+% header
+\usepackage{fancyhdr}
+
+% bibliography
+\usepackage[backend=biber, citestyle=authoryear]{biblatex}
+\addbibresource{speciale.bib}
+
+% Margins and paragraph indent etc (layout)
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.25cm}
+% \renewcommand{\baselinestretch}{1.5}
+
+%%% header and footer (uncomment below to get header and footer)
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\rhead{Jeppe Søndergaard Johansen}
+%\lfoot{\leftmark}
+%\rfoot{Page \thepage}
+
+% About Data
+\title{YOUR TITLE \\
+\large YOUR SUBTITLE}
+\author{YOUR NAME}
+\date{THE DATE}
+
+\makeindex
+
+\begin{document}
+
+%\includepdf[pages={1}]{frontpage/frontpage.pdf}
+
+\maketitle
+
+%Number of characters: \quickcharcount{main}. Maximum is (144.000)
+
+%Number of spaces: \quickwordcount{main}
+
+\input{sections/abstract.tex}
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\input{sections/introduction.tex}
+
+%add new sections by creating new .tex files in sections and using the input command as above. 
+
+\clearpage
+
+% uncomment for printing the biliography
+%\printbibliography[heading=bibintoc]
+
+\clearpage
+
+
+\end{document}

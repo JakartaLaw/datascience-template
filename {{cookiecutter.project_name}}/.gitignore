@@ -151,8 +151,21 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# annoying Mac files
 *.DS_Store
 
-# removing main.pdf from the cookiecutter template
-*.pdf
+# LaTeX stuff
+*main.aux
+*main.bbl
+*main.bcf
+*main.blg
+*main.fdb_latexmk
+*main.fls
+*main.idx
+*main.ilg
+*main.ind
+*main.run.xml
+*main.synctex.gz
+*main.toc
+
+# Consider adding main.pdf to gitignore
+#*main.pdf
