@@ -19,3 +19,9 @@ To generate a new environment run: `conda create -n <YOUR ENVIRONMENT NAME>`
 ## Activating the environment
 
 To activate your environment run: `conda activate -n <YOUR ENVIRONMENT NAME>`
+
+## Adding your project to git
+
+- Using the Github Desktop application, choose the add > Add existing repo.
+- After this step you will be prompted with, that this is not in fact a repo already, and if you want to *create a repository*.
+- Click *create a repository* and a new you are prompted with a new form. Click *create repo* and it is added.
