@@ -1,10 +1,8 @@
 # README
 
-# Using the manager
+# Makefile
 
-Assuming you have set up the Conda environment, open your terminal and run: `Conda run manage.py <YOUR SPECIFIED COMMAND>`
-
-Say you want to run your entire analysis, then type: `Conda run manage.py run`
+The Makefile allows structuring workflow. Essentially it is able to check whether changes have happened to a code file, and if that change is newer than it's outcome it will rerun that specific file. This can make running code much easier.
 
 # Managing Environment
 
