@@ -15,7 +15,7 @@ A good resource on using Conda: https://docs.conda.io/projects/conda/en/latest/u
 
 ## Making a new environment
 
-To generate a new environment run: `conda create -n <YOUR ENVIRONMENT NAME>`
+To generate a new environment run: `conda create -n <YOUR ENVIRONMENT NAME> python=<YOUR_PYTHON_VERSION>` (use python 3.10 at least)
 
 ## Activating the environment
 
