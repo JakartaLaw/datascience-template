@@ -2,7 +2,10 @@
 
 # Makefile
 
-The Makefile allows structuring workflow. Essentially it is able to check whether changes have happened to a code file, and if that change is newer than it's outcome it will rerun that specific file. This can make running code much easier.
+The Makefile allows structuring your workflow. Essentially, it is able to check whether changes have happened to a code file, and if that change is newer than it's outcome it will rerun that specific file. This can make running code much easier.
+
+## First thing
+run `make scaffold`, which build extra folders for output etc
 
 # Managing Environment
 
@@ -23,3 +26,9 @@ To activate your environment run: `conda activate -n <YOUR ENVIRONMENT NAME>`
 - Using the Github Desktop application, choose the add > Add existing repo.
 - After this step you will be prompted with, that this is not in fact a repo already, and if you want to *create a repository*.
 - Click *create a repository* and a new you are prompted with a new form. Click *create repo* and it is added.
+
+## Adding your project from Github to overleaf (for colaboration)
+
+## Adding Zotero to your overleaf
+
+You probably want to change your *references.bib* file. You can add Zotero to overleaf seamlessly.

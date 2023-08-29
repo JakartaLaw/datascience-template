@@ -155,4 +155,4 @@ cython_debug/
 *.DS_Store
 
 # removing main.pdf from the cookiecutter template
-*.pdf
+*/manuscript/main.pdf
