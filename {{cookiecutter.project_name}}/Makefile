@@ -34,13 +34,13 @@ scaffold:
 	mkdir -p output/tables
 	mkdir -p output/figures
 	touch output/tables/.gitkeep
-	touch output/tables/.gitkeep
+	touch output/figures/.gitkeep
 	mkdir -p data
 	mkdir -p data/raw
 	mkdir -p data/processed
 	mkdir -p data/analysis
 	mkdir -p presentations
-	touch -p presentations/.gitkeep
+	touch presentations/.gitkeep
 
 DATE := $(shell date +%Y-%m-%d)
 
